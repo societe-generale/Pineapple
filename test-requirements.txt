@@ -1,0 +1,8 @@
+pytest
+coverage
+pytest-mock
+pytest-cov
+pytest-coverage
+pytest-random-order
+tox
+flake8
