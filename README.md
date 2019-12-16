@@ -15,7 +15,7 @@ pip install .
 
 Or you can also install it from PyPi
 ```bash
-pip install nq
+pip install pineapple
 ```
 
 ## Usage
