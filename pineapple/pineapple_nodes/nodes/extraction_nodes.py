@@ -72,6 +72,6 @@ def smart_extract_helper(self, *args, **kwargs):
     autotrigger=True,
     helper_function=smart_extract_helper,
 )
-def smart_extract_node(self: Node, iterable: Any()) -> Any():
-    result = nested_query(iterable, *self._sen_path_parts)
+def smart_extract_node(self: Node, iterable: Any(), flags: Any()) -> Any():
+    result = nested_query(iterable, *self._sen_path_parts, flags=flags)
     return result

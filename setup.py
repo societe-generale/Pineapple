@@ -7,10 +7,10 @@ with open(os.path.join(here, "pineapple", "VERSION"), encoding="utf-8") as f:
     version = f.read()
 
 setuptools.setup(
-    name="pineapple",
+    name="sg_pineapple",
     version=version,
     description="Pineapple software, visual scripting for automating API testing",
-    url="https://sgithub.fr.world.socgen/ktollec111518/Pineapple",
+    url="https://github.com/societe-generale/Pineapple",
     author="SG",
     author_email="",
     classifiers=[
@@ -37,9 +37,8 @@ setuptools.setup(
         "pineapple_nodes",
         "pineapple_server",
         "pineapple_server.server",
-        "",
     ],
-    install_requires=["klotan==1.7.0", "nq==3.0.0"],
+    install_requires=["klotan==1.7.0", "nq==4.0.1"],
     extras_require={"tests": ["pytest", "flake8", "pytest-cov"]},
     entry_points={
         "console_scripts": ["pineapple_server=pineapple_server.server.webserver:run"]
