@@ -16,7 +16,6 @@ setuptools.setup(
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
-        "Topic :: Software Development :: Monitoring Tools",
         "Topic :: Software Development :: Code Generators",
         "Topic :: Software Development :: Interpreters",
         "Topic :: System :: Benchmark",
