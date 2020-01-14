@@ -13,11 +13,6 @@ You just have to clone this repository and install it using the command
 pip install .
 ```
 
-Or you can also install it from PyPi
-```bash
-pip install nq
-```
-
 ## Usage
 
 ```python
