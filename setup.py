@@ -38,7 +38,7 @@ setuptools.setup(
         "pineapple_server.server",
     ],
     package_data={'': ['pineapple/VERSION']},
-    install_requires=["klotan==1.7.0", "nq==4.0.1"],
+    install_requires=["klotan==1.7.0", "nq==4.0.2"],
     extras_require={"tests": ["pytest", "flake8", "pytest-cov"]},
     entry_points={
         "console_scripts": ["pineapple_server=pineapple_server.server.webserver:run"]
